@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Raleway;
+    src: url('../raleway/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: JDSansPro;
+    src: url('../raleway/Raleway-Light.ttf');
+}
+
+/*@font-face {
+    font-family: JDSansPro;
+    src: url('../jd-fonts/JDSansPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: JDSansPro;
+    src: url('../jd-fonts/JDSansPro-Light.ttf');
+}*/

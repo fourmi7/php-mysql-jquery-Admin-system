@@ -1,0 +1,86 @@
+body {
+  font-family: 'JDSansPro', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+.navbar {
+  padding: 0 !important;
+}
+.navbar .container {
+  padding: 0;
+}
+.nav-jd {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #FFF;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+}
+.principal {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+.principal .row {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.col-12 {
+  padding: 0 !important;
+}
+.col-izquierda {
+  padding: 0 !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-derecha {
+  background-color: #367c2b;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.col-derecha img {
+  position: absolute;
+  top: 40%; 
+  width: 25%;
+  height: auto; 
+}
+.formulario {
+  padding-bottom: 0;
+  background: #fff;
+  border-radius: 5px;
+  max-width: 500px;
+}
+.form-control {
+  margin: 2rem 0; 
+}
+.btn-jd {
+  padding: .5rem;
+  width: 100%;
+  border: none;
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top:1.5rem;
+  background-color: #007bff;
+}
+.col-12 h5 {
+  text-align: left;
+}
+.col-12 h5 strong {
+  font-size: 2.1rem;
+}
+strong {
+    margin-bottom: 1rem;
+}
+p {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}

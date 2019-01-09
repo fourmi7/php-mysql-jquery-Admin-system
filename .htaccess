@@ -1,0 +1,17 @@
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^info/add?$ information.php [NC,L]
+RewriteRule ^shopping/myOrder?$ orderSuccess.php
+RewriteRule ^dashboard/desarrollo?$ ajax/desarrollo.php [NC,L]
+RewriteRule ^desarrollo/?$ includes/unDesarrollo.php [NC,L]
+RewriteRule ^dashboard/categoria?$ ajax/categoria.php [NC,L]
+RewriteRule ^dashboard/subcategoria?$ ajax/subcategoria.php [NC,L]
+RewriteRule ^dashboard/especificacion?$ ajax/especificacion.php [NC,L]
+RewriteRule ^dashboard/caracteristica?$ ajax/caracteristica.php [NC,L]
+RewriteRule ^dashboard/foto?$ ajax/foto.php [NC,L]
+RewriteRule ^dashboard/planta?$ ajax/planta.php [NC,L]
+RewriteRule ^account/adminLogin?$ admin/adminLogin.php [NC,L]
+RewriteRule ^account/dashboard?$ dashboard.php [NC,L]
+RewriteRule ^account/sign-out?$ includes/logout.php [NC,L]
+Options All -Indexes
